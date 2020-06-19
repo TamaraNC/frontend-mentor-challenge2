@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root {
+    --main-title:hsl(192, 100%, 9%);
+    --secondary-title: hsl(208, 11%, 55%);
+    --paragraph-color: hsl(193, 100%, 96%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+/* HERO */
+.hero {
+    height: 100vh;
+    padding: 4rem 4rem;
+    background-color: var(--paragraph-color);
+}
+.logo-img {
+    width: 20%;
+    height: 20%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    color: var(--main-title);
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2rem;
+}
+.text-content {
+    width: 40%;
+}
+button {
+    border-radius: 25px;
+    padding: 1rem 3rem;
+    border: none;
+    transition: 0.5s all ease;
+    font-size: 14px;
+    font-weight: 700;
+}
+.white-btn {
+    background: white;
+    color: var(--main-title);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.white-btn:hover {
+    color: white;
+    background-color: var(--main-title);
+    cursor: pointer;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+.pink-btn {
+    background: hsl(322, 100%, 66%);
+    color:white;
+    margin-top: 2rem;
+}
+.pink-btn:hover {
+    cursor: pointer;
+    background: hsl(322, 99%, 38%);
+}
+.main-content img {
+    width: 60%;
+    height: 60%;
+}
+
+/* MAIN */
+h4 {
+    margin-bottom: 1rem;
+    color: var(--main-title)
+}
+.main p {
+    color: var(--secondary-title);
+}
+.main-cards-container {
+    margin: 8rem 4rem;
+}
+.main-card {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 3rem 4rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.main-card .text {
+    width: 50%;
+}
+.main-card img {
+    width: 30%;
+    height: 80%;
+}
+.card1,
+.card3 {
+    position: relative;
+    left: 20%;
+}
+.card2{
+    margin-right: 10rem;
+}
+.community-card-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.community-card {
+    padding: 2rem 5rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.pink-btn2 {
+    margin-top: 0rem;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: var(--main-title);
+    color: white; 
+    padding: 1rem;
+    position: relative;
+}
+footer h6 {
+    text-align: center;
+}
+footer a {
+    color: var(--secondary-title);
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+a:hover {
+    color: hsl(322, 100%, 66%);
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4rem;
+    background-color: var(--main-title);
+    color: white;
+    position: relative;
+}
+ul {
+    list-style: none;
+    line-height: 2.5rem;
+}
+.social-media {
+    display: flex;
+}
+i {
+    margin: 0.5rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    line-height: 2.5rem;
+}
+
+
