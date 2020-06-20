@@ -228,6 +228,16 @@ i {
     .community-card h1 {
         font-size: 18px;
     }
+    .footer-content {
+        display: block;
+    }
+    ul {
+        margin-top: 2rem;
+    }
+    .social-media {
+        justify-content: center;
+        margin-top: 2rem;
+    }
 
 }
 @media screen and (max-width: 450px) {
@@ -249,5 +259,6 @@ i {
         padding: 1.5rem;
         margin: 2rem 2rem;
     }
+   
 }
 
